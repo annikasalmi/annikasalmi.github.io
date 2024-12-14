@@ -2,96 +2,139 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Annika Salmi
     - name: Date of Birth
-      value: 14th March 1879
+      value: August 21 1999
     - name: Languages
-      value: English, German
+      value: English, Spanish French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MPhil in Planetary Sciences and Life in the Universe
+      institution: University of Cambridge
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Modules including Planetary System Dynamics; Extrasolar Planets Atmospheres and Interiors
+    - title: Bachelor of Arts double major in Physics and Astronomy
+      institution: Yale University
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 3.6/4.0 (UK 2:1 equivalent)
+        - Undergraduate Thesis Title Correlating mapped nuclear dust with AGN obscuration
+        - Modules including Astrostatistics and Data Mining; Scientific Computing in Astrophysics; Research Methods in Astrophysics; Exoplanets and Data Science; Research semester in Fall 2020, studying dust around supermassive black holes
+    - title: Physics of Life Summer Program
+      institution: Princeton University
+      year: 2020
+      description:
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Simulation Engineer
+      institution: Starfish Space
+      year: 2022-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Wrote the company tool that uses on-orbit data to find the current location of the satellite in orbit. Used this tool to determine physics simulation accuracy; found the simulation was already 95% accurate.
+        - Modeled low Earth orbit physics in a Basilisk physics simulation to solve for drag. Obtained a value for coefficient of drag lower than accepted literature value of 2.2.
+        - Added hot pixels, cosmic rays, and blurring to synthetic Blender satellite images to train the navigation model. Created thousands of images as part of this iterative process.
+        - Architected and wrote a pipeline to process and clean on-orbit data for ground analysis.
+        - Improved dynamics simulation model performance by 30%, by rewriting slow algorithms, by tailoring cloud tools, and changing build processes. Dynamics simulation is Python wrapping C++ code; contributed in both languages. Also improved simulation UI for everyone who interacted with the simulation.
+    - title: Research Assistant
+      institution: Urry Lab, Yale University
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Mapped galaxy dust distributions of 109 galaxies with active galactic nuclei (AGN) to resolve whether whether dust obscured X-ray radiation from the AGN.
+        - Wrote an algorithm that combined infrared and optical Hubble images to illuminate the galactic dust.
+        - Established a GitHub package that when installed, creates attenuation (dust) maps of galaxies.
+        - Presented at a senior thesis Mellon Forum; funded by the Richter Memorial Fund.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Assistant
+      institution: Newburgh Lab, Yale University
+      year: 2019-2020
+      description:
+        - Generated channel telescope frequency versus intensity graphs of well-known bright stars on the Canadian Hydrogen Intensity Mapping Experiment (CHIME) to find telescope accuracy. Found 5 frequency channels that were over- and under-measuring intensity; results calibrated telescope.
+        - Research done with Cedar supercomputer; funded by the Richter Memorial Fund.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Museum Assistant in Paleobotany
+      institution: Peabody Museum, Yale University
+      year: 2018
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Science Communication
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Science night volunteer
+      institution: Institute of Astronomy, University of Cambridge
+      year: 2024
+      description:
+
+    - title: President
+      institution: Starlab, Yale University
+      year: 2017-2021
+      description:
+        - Write and present planetarium shows to New Haven students; teach Yale students to communicate science.
+
+    - title: SciTech Desk Writer
+      institution: Yale Daily News
+      year: 2020
+      description:
+        - Astronomy popular science writing has also appeared in publications such as Matador Network, Study Breaks
+
+    - title: Docent
+      institution: Exploratorium Museum
+      year: 2017
+      description:
+        - Explained exhibits to visitors and ran public dissections in San Francisco’s premier hands-on science museum.
+
+    - title: Student
+      institution: Joint Antarctic Science Expedition
+      year: 2016
+      description:
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/annikasalmi/exo-atm-predict">exo-atm-predict</a>
+      year: 2024 (in progress)
+      description: Select a discovered exoplanet and the tool tells you what the most "likely" characteristics of its atmosphere will be, based on what astronomers have already observed. Very biased; can be useful to see what those biases are. Specifically examining M-dwarfs with results
+
+  contents:
+    - title: <a href="https://github.com/annikasalmi/exo-venus-evolution">exo-venus-evolution</a>
+      year: 2024 (in progress)
+      description: Model the evolution of "exo-Venuses" over their geological history, using Venus and exo-Venus data
+
+  contents:
+    - title: <a href="https://github.com/annikasalmi/alignpy">alignpy</a>
+      year: 2024 (in progress)
+      description: Built a tool that locally downloads FITS files of astronomical objects, specified by filter and catalog. Once they are downloaded, the image files can be aligned and plotted via addition, subtraction, or division
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Mellon Forum fund
+        - Paul K. Richter and Evalyn E. Cook Richter Memorial Fund
+    - year: 2020
       items:
-        - Max Planck Medal
+        - Paul K. Richter and Evalyn E. Cook Richter Memorial Fund
+    - year: 2016
+      items:
+       - National Science Foundation funding to go to Antarctica
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Planetary Atmospheres
+    - title: Origin of life
+    - title: Planetary System Dynamics
+    - title: Missions to solar system bodies
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Ski mountaineering
+    - Rowing
+    - Climbing
+    - Reading (<a href="https://www.gooodreads.com/annikasalmi">Goodreads</a>)
