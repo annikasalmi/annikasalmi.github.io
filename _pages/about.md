@@ -12,7 +12,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hi! I'm Annika Salmi. I am currently pursuing my MPhil in Planetary Sciences and Life in the Universe at Trinity Hall, University of Cambridge. I’m interested in using my simulation engineering background to model planetary atmospheres.
+Hi! I'm Annika Salmi. I am currently pursuing my MPhil in planetary science and Life in the Universe at Trinity Hall, University of Cambridge. I’m interested in using my simulation engineering background to model planetary atmospheres.
 
 I previously worked as a simulation engineer at Starfish Space, modeling the physics of drag. I’m a Yale University graduate in Astronomy and Physics. I grew up in San Francisco, Barcelona, and Zurich, and previously lived in Seattle, Washington.
 
