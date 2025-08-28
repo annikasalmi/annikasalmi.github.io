@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /science-writing/
-title: Science Writing
-description: A collection of my science writing and articles
+title: science writing
 nav: true
 nav_order: 5
 ---
@@ -24,4 +23,3 @@ nav_order: 5
 - [4 Science Fiction Novels That Explore Life On Venus](https://studybreaks.com/culture/reads/novels-venus-life/), Study Breaks
 - [Why Are Movies About Queer Women Always Period Pieces?](https://studybreaks.com/tvfilm/queer-period-pieces/), Study Breaks
 - [Joji's New Album 'Nectar' Hypnotizes, But It Lacks Depth](https://studybreaks.com/culture/music/joji-nectar/), Study Breaks
-- [On His Debut Album, 'Apolonio,' Omar Apollo Explores Love And Belonging](https://studybreaks.com/culture/music/omar-apollo-apolonio/), Study Breaks # Updated Thu Aug 28 15:44:59 BST 2025
