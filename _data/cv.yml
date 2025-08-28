@@ -1,13 +1,4 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Annika Salmi
-    - name: Date of Birth
-      value: August 21 1999
-    - name: Languages
-      value: English, Spanish French
-
+- title: See PDF version at link above left.
 - title: Education
   type: time_table
   contents:
