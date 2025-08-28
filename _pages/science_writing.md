@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /science-writing/
-title: Science Writing
-description: A collection of my science writing and articles
+title: science writing
 nav: true
 nav_order: 5
 ---

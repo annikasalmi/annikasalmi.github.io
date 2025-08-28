@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /fun-stuff/
-title: Fun Stuff
-description: A collection of my hobbies and interests
+title: fun stuff
 nav: true
 nav_order: 6
 ---
