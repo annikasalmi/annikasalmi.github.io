@@ -2,6 +2,7 @@
 layout: page
 permalink: /science-writing/
 title: science writing
+description: 
 nav: true
 nav_order: 5
 ---
