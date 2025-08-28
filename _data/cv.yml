@@ -123,15 +123,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Planetary Atmospheres
+    - title: Planetary interiors and atmospheres
     - title: Origin of life
-    - title: Planetary System Dynamics
+    - title: Planetary system dynamics
     - title: Missions to solar system bodies
 
 - title: Other Interests
   type: list
   contents:
     - Ski mountaineering
-    - Rowing
     - Climbing
     - Reading (<a href="https://www.gooodreads.com/annikasalmi">Goodreads</a>)
