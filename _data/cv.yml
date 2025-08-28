@@ -11,14 +11,21 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Planetary Science
+      institution: ETH Zurich
+      year: 2025-present
+      description:
+        - Working on carbon and sulfur cycles on exoplanets
     - title: MPhil in Planetary Science and Life in the Universe
       institution: University of Cambridge
-      year: 2025
+      year: 2024-2025
       description:
+        - Received distinction (highest mark possible)
+        - Thesis on simulating LIFE and HWO's future detections
         - Modules including Planetary System Dynamics; Extrasolar Planets Atmospheres and Interiors
     - title: Bachelor of Arts double major in Physics and Astronomy
       institution: Yale University
-      year: 2021
+      year: 2017-2021
       description:
         - GPA 3.6/4.0 (UK 2:1 equivalent)
         - Undergraduate Thesis Title Correlating mapped nuclear dust with AGN obscuration
@@ -95,10 +102,9 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/annikasalmi/exo-atm-predict">exo-atm-predict</a>
+    - title: <a href="https://github.com/annikasalmi/mdwarf-habitability">mdwarf-habitability</a>
       year: 2024 (in progress)
-      description: Select a discovered exoplanet and the tool tells you what the most "likely" characteristics of its atmosphere will be, based on what astronomers have already observed. Very biased; can be useful to see what those biases are. Specifically examining M-dwarfs with results
-
+      description: Predict the number of habitable zone M-dwarf planetary atmospheres HWO and LIFE will see using an MCMC simulated planetary population. Recreated LIFE results and looked for how many planets HWO would find.
   contents:
     - title: <a href="https://github.com/annikasalmi/exo-venus-evolution">exo-venus-evolution</a>
       year: 2024 (in progress)
